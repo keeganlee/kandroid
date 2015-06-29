@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.keegan.kandroid.activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/edit_vertical_margin"
+            android:layout_marginBottom="@dimen/edit_vertical_margin"
+            android:hint="@string/hint_phone"
+            android:inputType="phone"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/btn_send_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="toSendCode"
+            android:text="@string/btn_send_code"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_vertical_margin"
+        android:layout_marginBottom="@dimen/edit_vertical_margin"
+        android:hint="@string/hint_code"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_vertical_margin"
+        android:layout_marginBottom="@dimen/edit_vertical_margin"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_vertical_margin"
+        android:layout_marginBottom="@dimen/btn_vertical_margin"
+        android:onClick="toRegister"
+        android:text="@string/btn_register" />
+</LinearLayout>
