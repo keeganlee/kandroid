@@ -38,6 +38,9 @@
             <id>Java</id>
           </State>
           <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
             <id>Serialization issuesJava</id>
           </State>
         </expanded-state>
@@ -65,8 +68,23 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Copyright Header</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
