@@ -24,7 +24,9 @@ import java.io.Serializable;
  * 抵扣券是满足一定金额后可以抵扣的券，比如满100减10元；
  * 折扣券是可以打折的券。
  *
- * @version 1.0 创建时间：15/6/21
+ * @author Keegan小钢
+ * @date 15/6/21
+ * @version 1.0
  */
 public class CouponBO implements Serializable {
     private static final long serialVersionUID = -8022957276104379230L;

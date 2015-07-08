@@ -21,7 +21,9 @@ import java.security.MessageDigest;
 /**
  * 加密工具类
  *
- * @version 1.0 创建时间：15/6/24
+ * @author Keegan小钢
+ * @date 15/6/21
+ * @version 1.0
  */
 public class EncryptUtil {
     // MD5加密

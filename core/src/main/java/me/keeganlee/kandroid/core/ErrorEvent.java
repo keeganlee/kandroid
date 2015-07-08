@@ -18,7 +18,9 @@ package me.keeganlee.kandroid.core;
 /**
  * 错误码
  *
- * @version 1.0 创建时间：15/6/25
+ * @author Keegan小钢
+ * @date 15/6/25
+ * @version 1.0
  */
 public class ErrorEvent {
     static final public String PARAM_NULL = "PARAM_NULL"; // 参数为空

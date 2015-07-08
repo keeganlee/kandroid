@@ -22,7 +22,9 @@ import java.util.List;
 /**
  * Api接口
  *
- * @version 1.0 创建时间：15/6/21
+ * @author Keegan小钢
+ * @date 15/6/21
+ * @version 1.0
  */
 public interface Api {
     // 发送验证码

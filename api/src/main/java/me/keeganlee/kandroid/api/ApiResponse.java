@@ -18,7 +18,9 @@ package me.keeganlee.kandroid.api;
 /**
  * Api响应结果的封装类.
  *
- * @version 1.0 创建时间：15/6/21
+ * @author Keegan小钢
+ * @date 15/6/21
+ * @version 1.0
  */
 public class ApiResponse<T> {
     private String event;    // 返回码，0为成功

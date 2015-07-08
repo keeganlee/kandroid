@@ -33,7 +33,9 @@ import java.util.Map;
 /**
  * Http引擎处理类
  *
- * @version 1.0 创建时间：15/6/21
+ * @author Keegan小钢
+ * @date 15/6/21
+ * @version 1.0
  */
 public class HttpEngine {
     private final static String TAG = "HttpEngine";

@@ -29,7 +29,9 @@ import java.util.Map;
 /**
  * Api实现类
  *
- * @version 1.0 创建时间：15/6/21
+ * @author Keegan小钢
+ * @date 15/6/21
+ * @version 1.0
  */
 public class ApiImpl implements Api {
     private final static String APP_KEY = "ANDROID_KCOUPON";

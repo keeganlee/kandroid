@@ -18,7 +18,9 @@ package me.keeganlee.kandroid.core;
 /**
  * Action的处理结果回调监听器
  *
- * @version 1.0 创建时间：15/6/25
+ * @author Keegan小钢
+ * @date 15/6/25
+ * @version 1.0
  */
 public interface ActionCallbackListener<T> {
     /**
