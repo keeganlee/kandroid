@@ -53,4 +53,12 @@
         android:onClick="toLogin"
         android:text="@string/btn_login" />
 
+    <Button
+        android:id="@+id/btn_goto_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_vertical_margin"
+        android:onClick="toRegister"
+        android:text="@string/btn_goto_register" />
+
 </LinearLayout>
