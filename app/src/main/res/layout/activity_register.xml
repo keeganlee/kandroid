@@ -30,7 +30,7 @@
         android:orientation="horizontal">
         <EditText
             android:id="@+id/edit_phone"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/edit_vertical_margin"
@@ -40,9 +40,8 @@
             android:singleLine="true" />
         <Button
             android:id="@+id/btn_send_code"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:onClick="toSendCode"
             android:text="@string/btn_send_code"/>
     </LinearLayout>

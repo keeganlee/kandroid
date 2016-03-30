@@ -27,6 +27,7 @@
     <!-- 按钮文字 -->
     <string name="btn_login">登录</string>
     <string name="btn_register">注册</string>
+    <string name="btn_goto_register">注册</string>
     <string name="btn_send_code">发送验证码</string>
 
     <!-- EditText hint -->

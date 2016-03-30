@@ -17,8 +17,6 @@ package me.keeganlee.kandroid.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -44,26 +42,6 @@ public class LoginActivity extends KBaseActivity {
         setContentView(R.layout.activity_login);
         // 初始化View
         initViews();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_login, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        // 如果是注册按钮
-        if (id == R.id.action_register) {
-            Intent intent = new Intent(this, RegisterActivity.class);
-            startActivity(intent);
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     // 初始化View
@@ -93,5 +71,11 @@ public class LoginActivity extends KBaseActivity {
                 loginBtn.setEnabled(true);
             }
         });
+    }
+
+    // 进入注册页
+    public void toRegister(View view) {
+        Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
     }
 }
