@@ -39,7 +39,7 @@ import java.util.Map;
  */
 public class HttpEngine {
     private final static String TAG = "HttpEngine";
-    private final static String SERVER_URL = "http://uat.b.quancome.com/platform/api";
+    private final static String SERVER_URL = "http://domain.com/platform/api";
     private final static String REQUEST_MOTHOD = "POST";
     private final static String ENCODE_TYPE = "UTF-8";
     private final static int TIME_OUT = 20000;
